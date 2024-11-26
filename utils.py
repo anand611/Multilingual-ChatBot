@@ -13,8 +13,8 @@ from langgraph.graph.message import add_messages
 from typing_extensions import Annotated,TypedDict
 
 os.environ["LANGCHAIN_TRACING_V2"]="true"
-os.environ["LANGCHAIN_API_KEY"]="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"
-os.environ["MISTRAL_API_KEY"]="hMqNZDjra2qaPE79MEl5hdCFXaUR1R7i"
+os.environ["LANGCHAIN_API_KEY"]="Your API Key"
+os.environ["MISTRAL_API_KEY"]="Your API Key"
 
 chats_by_session_id = {}
 models = ["mistral-large-latest","ministral-3b-latest"]
